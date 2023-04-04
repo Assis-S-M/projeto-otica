@@ -1,0 +1,111 @@
+.mainContainer img {
+    width: 100vw;
+    height: 80vh;
+}
+
+.textContainer {
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+
+.textContainer p {
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.showcaseContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+}
+
+.showcaseItens {
+    width: 80vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.whoWeAreContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 50vw;
+    background-color: rgb(233, 240, 253);
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.whoWeAreImgs {
+    background-color: rgb(255, 255, 255);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 50vw;
+    height: 60vh;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgba(128, 128, 128, .4);
+    border-radius: 5px;
+    border-style: groove;
+}
+
+.whoWeAreImgs img {
+    position: relative;
+    width: 50%;
+    height: 50%;
+}
+
+.whoWeAreImgs div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 50%;
+}
+
+.whoWeAreImgs div p {
+    text-align: center;
+}
+
+.footer {
+    padding-top: 40px;
+    background-color: rgb(0, 1, 46);
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer p {
+    text-align: center;
+}
+
+.footer svg {
+    margin-right: 5px;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    width: 50vw;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contactNumber, .socials {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.copyright {
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+}
